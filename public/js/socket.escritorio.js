@@ -14,7 +14,7 @@ socket.on('disconnect', function() {
 var searchParams = new URLSearchParams(window.location.search);
 
 if(!searchParams.has('escritorio')){
-    window.location('index.html');
+    window.location = 'index.html';
     throw new Error('El modulo es necesario');
 }
 

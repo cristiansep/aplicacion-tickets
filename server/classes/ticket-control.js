@@ -17,6 +17,7 @@ class TicketControl {
     let data = require("../data/data.json");
 
     if(data.hoy === this.hoy){
+      
         this.ultimo = data.ultimo;
         this.tickets = data.tickets;
         this.ultimos4 = data.ultimos4;
